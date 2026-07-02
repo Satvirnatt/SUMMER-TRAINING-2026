@@ -1,0 +1,33 @@
+On 24 June 2026
+Networking Models and Protocols
+Today I learned about how devices talk to each other on a network.
+
+The OSI Model has seven parts:
+
+* Physical
+* Data Link
+* Network
+* Transport
+* Session
+* Presentation
+* Application
+
+Each part does a job when sending data from one device to another.
+The trainer showed us how it all works.
+I also studied the TCP/IP Model, which is used a lot on the Internet.
+Comparing the OSI Model and TCP/IP Model helped me understand real-world networking.
+
+The trainer introduced protocols like:
+1. HTTP
+2. HTTPS
+3. FTP
+4. SSH
+5. DNS
+6. DHCP
+7. TCP
+8. UDP
+9. ICMP
+
+These protocols help devices exchange data safely and reliably
+Understanding these protocols made me feel more confident, about networking.
+The session was really helpful.
