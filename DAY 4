@@ -1,45 +1,34 @@
 ON 26 JUNE 2026
+Today's session was about OSI MODEL 
 
-Introduction to Cybersecurity and Types of Attacks
-Todays session was about the basics of cybersecurity.
-I learned that cybersecurity is about protecting systems, networks and digital information from people who shouldn't access them and cyber threats.
-The trainer talked about the CIA Triad, which includes Confidentiality, Integrity and Availability.
-These three things are the foundation of information security.
-The trainer explained types of cyber attacks. These included:
+Today I dove into how the internet actually works. I learned about the OSI Model. At first it sounded complicated. Its basically the rulebook for how computers talk to each other.
+Whenever I send an email or stream a video my data doesn't just magically appear. It gets packed, shipped and unpacked through 7 layers before it reaches the persons screen.
+A great trick to memorize the layers is: Please Do Not Throw Sausage Pizza
+Here's what happens at each stage:
+Layer 1: The Physical Layer
+What it is: The hardware. This includes copper cables, Wi-Fi radio waves and fiber optics.
+How it works: It sends data as bits over a physical medium. This layer doesn't know what the data means; it just pushes signals from point A to point B.
 
-- Malware
+Layer 2: The Data Link Layer 
+What it is: The local delivery system.
+How it works: It takes bits and packages them into frames. This is where device addresses live. Network switches operate here making sure a frame gets to the device in the same network.
 
-- Viruses
+Layer 3: The Network Laye
+What it is: The GPS of the internet. This layer routes data between networks.
+How it works: It takes frames. Turns them into packets adding IP addresses. Routers live here. They find the path to send a packet.
 
-- Worms
+Layer 4: The Transport Layer
+What it is: The quality control manager.
+How it works: It breaks data into segments. Dictates how its sent. It uses TCP or UDP. TCP ensures every piece arrives perfectly while UDP sends data fast but might drop some pieces.
 
-- Trojan Horses
+Layer 5: The Session Layer 
+What it is: The conversation coordinator.
+How it works: This layer opens a "session" between my computer and a web server. It ensures the connection stays open to exchange data and closes it securely when done.
 
-- Spyware
+Layer 6: The Presentation Layer 
+What it is: The translator.
+How it works: It prepares data for software. It handles data formatting, compression and encryption. This layer scrambles passwords into code.
 
-- Ransomware
-
-- Phishing
-
-- Smishing
-
-- Vishing
-
-- Denial of Service (DoS)
-
-- Distributed Denial of Service (DDoS)
-
-- SQL Injection
-
-- Cross-Site Scripting (XSS)
-
-- Password Attacks
-
-- Man-in-the-Middle (MITM) attacks
-
-- Social Engineering attacks
-
-The session showed how attackers find weaknesses and use them.
-The trainer said that being aware of these attacks is the step in stopping them.
-Cybersecurity is important to protect systems, networks and digital information.
-We need to be careful, about cyber threats and take steps to prevent them.
+Layer 7: The Application Layer
+What it is: The part I interact with!
+How it works: This layer is closest to me. It's where web browsers, email clients and apps operate. Protocols, like HTTP and SMTP live here.
