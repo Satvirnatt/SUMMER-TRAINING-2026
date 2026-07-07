@@ -1,7 +1,24 @@
 ON 29 JUNE 2026
-Understanding Cyber Attacks and Security Practices
-Today I looked into cyber attacks to see how they happen and how companies protect themselves.
-We went over examples of phishing emails, ransomware incidents and brute-force attacks. 
-The trainer talked about problems that happen because of weak passwords, old software, unsecure networks and people not knowing enough about cyber attacks.
-I learned some ways to prevent cyber attacks like making passwords using Multi-Factor Authentication updating software often using antivirus programs keeping backups and being careful when browsing the internet.
-This session helped me see why it is important to follow good cyber security habits at home and at work, with cyber attacks and security practices to avoid cyber attacks and security issues related to cyber attacks and security practices.
+
+Today's training session shifted our focus from strict theory to how networks actually function in the field.
+While the OSI model is great for understanding the concepts, today we learned about the TCP/IP Model. 
+This is the actual framework that powers the modern internet and our company's internal networks.
+Here is my breakdown of how data moves through the TCP/IP stack:
+
+Layer 1: The Network Access Layer (The Foundation)
+What it is: The Network Access Layer combines the Physical and Data Link layers of the OSI model into one layer. The Network Access Layer represents all the hardware and local network delivery.
+The Network Access Layer is where the physical cables and Wi-Fi signals and network interface cards and MAC addresses live. The Network Access Layer handles the details of converting data into electrical or radio signals and pushing them across a physical medium like our office LAN.
+
+Layer 2: The Internet Layer (The Navigator)
+What it is: The Internet Layer directly maps to the OSIs Network layer. The Internet Layer is like the GPS of the TCP/IP model.
+The Internet Layer is about the Internet Protocol. The Internet Layer packages data into IP datagrams, which are also called packets and attaches the source and destination IP addresses.
+Routers operate in the Internet Layer making decisions about the path to send our company data across the globe.
+
+Layer 3: The Transport Layer (The Delivery Manager)
+What it is: The Transport Layer is like the OSI Transport layer it is the quality control center.
+The Transport Layer uses two protocols to dictate how data travels through the Transport Layer. The TCP, which is the Transmission Control Protocol is reliable because it numbers every packet and demands a receipt ensuring no data is lost when we transfer company files through the Transport Layer. The UDP, which is the User Datagram Protocol is fast.
+It throws data at the destination without checking if it arrived which is why we use the UDP for real-time video conferencing where speed matters more than accuracy.
+
+Layer 4: The Application Layer (The User Interface)
+What it is: The Application Layer combines the three layers of the OSI model, which are the Session and Presentation and Application layers. The Application Layer is the software side of the network.
+The Application Layer provides the network services to the applications we use every day. When I open the company web portal, the HTTP and HTTPS are working in the Application Layer. When I send an email the SMTP is in action in the Application Layer. The Application Layer handles the formatting and encryption and session management in one tier, for the Application Layer.
