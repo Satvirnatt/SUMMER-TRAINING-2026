@@ -1,11 +1,6 @@
 ON 25 June 2026
-IP Addressing and Network Communication
-
-Today we had a class about IP addressing and how devices talk to each other.
-I found out about IPv4 and IPv6 addresses what they look like how they are different and why we needed IPv6 because IPv4 addresses were running out. 
-We learned about IP addresses, private IP addresses loopback addresses, subnet masks, default gateways and MAC addresses and the teacher showed us examples to make it clearer.
-The teacher showed us how devices find each other on a network and how information gets from one device to another.
-I also learned about the Domain Name System, which is called DNS for short.
-It helps us use website names instead of IP addresses when we browse the internet.
-We tried out some network commands like ping, ipconfig and tracert to see how to test if devices are connected and fix problems.
-The teacher explained IP addressing and network communication in a way that was easy to understand. I learned a lot, about IP addressing and network communication.
+Today's topic was Network Devices
+Today, I got a tour of the company's server room and main distribution frames. 
+Instead of just reading about hardware, I worked physically with enterprise-grade equipment.
+The senior engineers showed me their rack-mounted Switches (handling layer 2 internal office traffic) and edge Routers connecting us to our ISPs.
+I also got to look at the management interface of their hardware firewalls, which strictly control what traffic is allowed in and out of the corporate network.
